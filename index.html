@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+#wildlogo{
+width:5.3%;
+}
+
+@media only screen (min-width: 500px){
+#wildlogo{
+width:50px;
+}
+}
+
+</style>
+
+</head>
+<body>
+
+<div align="center" class="header">
+ <!-- NAVIGATION -->
+<div class="mobile-display" >
+		<h2 class="site-title">
+			<a href="#">
+				<img id="logo" src="images/logo.jpg" alt="rhinoriverlogo" />
+			</a>
+		</h2>
+	</div>
+		<nav>
+			<a href="#" class="toggle-menu">&#9776;</a>
+			<ul class="nav-list nav-open" id="nav">
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">RHINO RIVER LODGE</a></li>
+				<li class="has-logo">
+				<a href="#">
+				<h2 class="site-title">
+				<img id="logo" src="images/logo.jpg" alt="rhinoriverlogo" />
+				</h2>
+				</a>
+				</li>
+				<li><a href="#">RHINO SANDS</a></li>
+				<li><a href="#">THE RESERVE</a></li>
+				<li><a href="#">AVAILABILITY</a></li>
+			</ul>
+		</nav>
+</div>
+
+  <!-- BANNER -->
+<div class="banner">
+<img src="images/banner.jpg" class="banner"/>
+<center><button id="scroll" onclick="scrollWin()";><img src="images/scroll.png" /></button></center>
+</div>
+
+<!-- CONTENT -->
+<div align="center" class="bigfive">
+<div class="information">
+<div class="subheader">
+<h3>DISCOVER A BIG FIVE SAFARI IN</br>THE HEART OF ZULULAND</h3>
+<p>Rhino River Lodge and Rhino Sands Safari Camp are Big 5 safari lodges in KwaZulu Natal. 
+Situated along the shore of the Msunduze River in the southern section of the Zululand Rhino 
+Reserve, this 23,000 hectare private game reserve is located in the very heart of Zululand, 
+30kms North of the Hluhluwe Game Reserve. It’s in an area renowned for its African wildlife 
+and rich cultural heritage.</p></br></br>
+
+<!-- BOOKINGS BUTTON -->
+<div class="booking">
+<button class="bookingbutton">BOOK YOUR STAY</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- VIDEO -->
+<div class="video">
+<a href="#openModal1">
+<img id="video" src="images/video.jpg" />
+</a>
+</div>
+
+<div id="openModal1" class="modalDialog">
+<div>
+    <a href="#close" title="Close" class="close">X</a>
+	<iframe width="100%" height="315" src="https://www.youtube.com/embed/3Zp8PLVEmAg" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+
+<!-- CONTENT -->
+<div align="center" class="safari">
+<div class="information">
+<p>Rhino River Lodge is a relaxed family-style safari lodge, while Rhino Sands is a luxury tented camp with an 
+old-world appeal. Although different in character, they both call the Zululand Rhino Reserve home along with many 
+species of African wildlife.</br></br>
+All of our game drives take place in this private reserve, where you will be one of a privileged few to be game 
+viewing in the reserve on any given day. Enjoy an intimate and comfortable safari experience, with excellent game 
+viewing and luxury accommodation.</p>
+</div>
+</div>
+
+<div align="center" class="doublecontainer">
+
+<!-- CONTENT BOX -->
+<div class="right-div right-text">
+<div class="thumbnail">
+<img src="images/lodgeone.jpg" alt="lodgeone" />
+</div>
+<div class="caption">
+<h3>RHINO RIVER LODGE</h3>
+<hr>
+<p>Relaxed family-style lodge</br>
+3 accommodation types</br>
+Rooms sleep up to 6</p></br>
+</div>
+<div class="buttontwo">
+<button class="button button1">READ MORE</button>
+</div>
+</div>
+
+<!-- CONTENT BOX -->
+<div class="right-div right-text">
+<div class="thumbnail">
+<img src="images/lodge2.jpg" alt="lodgetwo" />
+</div>
+<div class="caption">
+<h3>RHINO SANDS</h3>
+<hr>
+<p>Luxury tented camp</br>
+8 luxurious tents</br>
+Sleeps 2 guests each</p></br>
+</div>
+<div class="buttontwo">
+<button class="button button1">READ MORE</button>
+</div>
+</div>
+</div>
+
+  <!-- FOOTER -->
+<div class="footer">
+<div class="footer-top">
+
+<div id="social">
+<table cellspacing="10" align="center">
+<tbody>
+<tr>
+<td><a href="http://www.facebook.com" target="_blank"><img src="images/fb.jpg" /></a></td>
+<td><a href="http://www.twitter.com" target="_blank"><img src="images/tw.jpg"></a></td>
+<td><a href="http://www.pinterest.com" target="_blank"><img src="images/pin.jpg"></a></td>
+<td><a href="http://www.youtube.com" target="_blank"><img src="images/you.jpg"></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="container">
+<p>+27 (0) 35 940 0018</p>
+<p>+27 (0) 83 781 4924</p>
+<p><a href="mailto:info@rhinoriverlodge.co.za">info@rhinoriverlodge.co.za</a></p>
+</div>
+
+</div>
+<div class="footer-bottom">
+<div class="container">
+<div class="col-md-12 widget"><p style='vertical-align:middle; display:inline;'>© 2016 Rhino River Lodge. Website by</p>
+<a href="http:/www.wildweb.co.za"><img id="wildlogo"  style='vertical-align:middle;' src="images/wildlogo.jpg" alt text="wildlogo"/></a> 
+</div>
+</div>
+</div>
+</div>
+
+<script>
+function scrollWin() {
+    window.scrollBy(0, 600);
+}
+</script>
+
+</body>
+</html>
