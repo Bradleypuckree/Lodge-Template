@@ -1,2 +1,2 @@
-# wildweb
-Rhino River Lodge Template
+# Template
+ Lodge Template
